@@ -1,0 +1,35 @@
+body{
+    background-color: #212529;
+    color: #ffffff;
+}
+
+/* Toolbar */
+header, footer{
+    background-color: #393939;
+}
+
+/* Card Section */
+.card{
+    background-color: #323232;
+}
+
+/* Table lable*/
+thead{
+    background-color: #7048e8;
+}
+
+/* Project Links */
+.project{
+    background-color: #616161;
+}
+
+/* Form Input Box */
+input{
+    background-color: #616161;
+}
+
+/* Form Submit Button */
+#submit{
+    color:#ffffff;
+    background-color: #7048e8;
+}
