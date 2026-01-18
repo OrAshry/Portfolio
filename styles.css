@@ -16,8 +16,8 @@ header{
 a{
     color: #ffffff;
     font-family: inherit;
-}
 
+}
 a:hover{
     color: #7048e8;
     transition: 0.3s;
@@ -32,6 +32,7 @@ footer{
 /* Card Section */
 .card{
     background-color: #323232;
+    scroll-margin-top: 100px; /* Buffer between toolbar to title*/
 }
 
 /* Table lable*/
