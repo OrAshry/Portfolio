@@ -3,7 +3,11 @@ body{
     color: #ffffff;
 }
 
-/* Toolbar */
+a{
+    color: #ffffff;
+}
+
+/* Toolbar and Copyright */
 header, footer{
     background-color: #393939;
 }
