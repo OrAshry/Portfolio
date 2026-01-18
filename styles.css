@@ -2,6 +2,7 @@ body{
     background-color: #212529;
     color: #ffffff;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Toolbar*/
@@ -9,16 +10,17 @@ header{
     background-color: #393939;
     position: sticky;
     top: 0;
-    z-index: 10;
 }
 
 /* Links */
 a{
     color: #ffffff;
+    font-family: inherit;
 }
 
 a:hover{
     color: #7048e8;
+    transition: 0.3s;
 }
 
 /* Copyright */
@@ -45,10 +47,18 @@ thead{
 /* Form Input Box */
 input{
     background-color: #616161;
+    font-family: inherit;
 }
 
 /* Form Submit Button */
 #submit{
     color:#ffffff;
     background-color: #7048e8;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#submit:hover{
+    color:#5f3cd4;
+    transition: 0.3s;
 }
