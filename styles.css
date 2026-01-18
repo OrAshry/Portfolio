@@ -7,10 +7,19 @@ a{
     color: #ffffff;
 }
 
-/* Toolbar and Copyright */
-header, footer{
+/* Toolbar*/
+header{
+    background-color: #393939;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Copyright */
+footer{
     background-color: #393939;
 }
+
 
 /* Card Section */
 .card{
