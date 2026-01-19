@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* Body genral rules*/
 body{
     background-color: #212529;
     color: #ffffff;
@@ -12,6 +13,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Standard responsive containers for each section*/
 .container{
     display: flex;
     flex-direction: column;
@@ -33,14 +35,14 @@ header{
     padding: 1% 5%;
     margin-bottom: 2rem;
 }
-
+/* Navigation links*/
 nav{
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-/* Links */
+/* General links style and layout*/
 a{
     color: #ffffff;
     font-family: inherit;
@@ -48,12 +50,13 @@ a{
     transition: 0.5s;
 
 }
+/* Links hover effect */
 a:hover{
     color: #7048e8;
     transition: 0.5s;
 }
 
-/* Banner */
+/* Banner section layout and backgrond */
 .banner{
     display: flex;
     justify-content: center;
@@ -68,6 +71,7 @@ a:hover{
     margin: 0% auto;
     margin-bottom: 2rem;
 }
+/* Content on the banner background */
 .banner-content{
     display: flex;
     flex-direction: column;
