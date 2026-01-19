@@ -137,12 +137,30 @@ td{
 
 
 /*********************************** Projects Section ***************************************/
-/* Project Links */
-.project{
-    background-color: #616161;
+/* Projects Wrapper*/
+.projects-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
 }
 
+/* Individual Project Cards */ 
+.projects-links a{
+    flex: 1; /* Equal Width Distribution */ 
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #616161;
+    transition: 1s;
+}
 
+/* Hover Effect */
+.projects-links a:hover{
+    box-shadow: 0px 4px 15px #7048e8;
+    transition: 1s;
+}
 /*********************************** Contact Section ****************************************/
 /* Form Input Box */
 input{
