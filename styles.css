@@ -5,35 +5,40 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.container{
+    display: flex;
+    background-color: #323232;
+    scroll-margin-top: 100px; /* Buffer between toolbar to title*/
+}
+
 /* Toolbar*/
 header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #393939;
     position: sticky;
     top: 0;
+    padding: 0px 5%;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
 /* Links */
 a{
     color: #ffffff;
     font-family: inherit;
+    text-decoration: none;
     transition: 0.5s;
 
 }
 a:hover{
     color: #7048e8;
     transition: 0.5s;
-}
-
-/* Copyright */
-footer{
-    background-color: #393939;
-}
-
-
-/* Card Section */
-.card{
-    background-color: #323232;
-    scroll-margin-top: 100px; /* Buffer between toolbar to title*/
 }
 
 /* Table lable*/
@@ -64,4 +69,9 @@ input{
 #submit:hover{
     color:#5f3cd4;
     transition: 0.5s;
+}
+
+/* Copyright */
+footer{
+    background-color: #393939;
 }
