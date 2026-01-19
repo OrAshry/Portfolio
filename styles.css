@@ -1,11 +1,12 @@
-/* Ensure layout starts exactly at the edges of the screen */
+/*********************************** General Layout *****************************************/
+/* Ensure Layout Starts Exactly At The Edges Of The Screen */
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-/* Body genral rules*/
+/* Body General Rules*/
 body{
     background-color: #212529;
     color: #ffffff;
@@ -13,7 +14,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* Standard responsive containers for each section*/
+/* Standard Responsive Containers For Each Section*/
 .container{
     display: flex;
     flex-direction: column;
@@ -25,6 +26,23 @@ body{
     border-radius: 1rem;
 }
 
+/* General Links Style And Layout*/
+a{
+    color: #ffffff;
+    font-family: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+/* Links Hover Effect */
+a:hover{
+    color: #7048e8;
+    transition: 0.5s;
+}
+
+
+/*********************************** Logo and Navigation ************************************/
 /* Toolbar*/
 header{
     display: flex;
@@ -36,28 +54,17 @@ header{
     padding: 1% 5%;
     margin-bottom: 2rem;
 }
-/* Navigation links*/
+
+/* Navigation Links*/
 nav{
     display: flex;
     gap: 15px; /* Gap between the navigation buttons */
     align-items: center;
 }
 
-/* General links style and layout*/
-a{
-    color: #ffffff;
-    font-family: inherit;
-    text-decoration: none;
-    transition: 0.5s;
 
-}
-/* Links hover effect */
-a:hover{
-    color: #7048e8;
-    transition: 0.5s;
-}
-
-/* Banner section layout and backgrond */
+/*********************************** Banner Section *****************************************/
+/* Banner Backgrond */
 .banner{
     display: flex;
     justify-content: center;
@@ -73,7 +80,8 @@ a:hover{
     margin-bottom: 2rem;
     border-radius: 1rem;
 }
-/* Content on the banner background */
+
+/* Content On The Banner Background */
 .banner-content{
     display: flex;
     flex-direction: column;
@@ -81,6 +89,8 @@ a:hover{
     text-align: center;
 }
 
+
+/*********************************** Introduction Section ***********************************/
 /* Introduction */
 #intro{
     flex-direction: row; /* Made both elements side-by-side */
@@ -88,7 +98,8 @@ a:hover{
     align-items: center;
     gap: 3rem; /* This creates a consistent space between the image and text */
 }
-/* Profile picture*/
+
+/* Profile Picture*/
 img{
     object-fit: cover; /* Make sure photo will not stratch*/
     width: 18%;
@@ -97,21 +108,26 @@ img{
     flex-shrink: 0; /* Prevents the image from being squeezed by the text */
 }
 
-/* Table layout and style*/
+
+/*********************************** Skills Section *****************************************/
+/* Table Layout And Style*/
 table{
     width: 100%;
     border-collapse: collapse; /* Remove the seperation*/
     margin-top: 2rem; /* Space from the header */
 }
+
 /* Table Header */
 thead{
     background-color: #7048e8;
 }
-/* Table Header style */
+
+/* Table Header Style */
 th{
     padding: 1.5rem;
     text-align: center;
 }
+
 /* Table Data */
 td{
     padding: 2rem;
@@ -119,11 +135,15 @@ td{
     border-bottom: 0.3rem solid #444;
 }
 
+
+/*********************************** Projects Section ***************************************/
 /* Project Links */
 .project{
     background-color: #616161;
 }
 
+
+/*********************************** Contact Section ****************************************/
 /* Form Input Box */
 input{
     background-color: #616161;
@@ -139,12 +159,15 @@ input{
     cursor: pointer;
 }
 
+/* Hover Effect */
 #submit:hover{
     color:#5f3cd4;
     transition: 0.5s;
 }
 
-/* Copyright */
+
+/*********************************** Copyright Section **************************************/
+/* End Of Page */
 footer{
     display: flex;
     justify-content: center;
