@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0rem auto 2rem auto; 
-    width: 90%;
+    width: 80%;
     background-color: #323232;
     scroll-margin-top: 6rem; /* Buffer between toolbar to title*/
     padding: 2.5rem;
@@ -39,7 +39,7 @@ header{
 /* Navigation links*/
 nav{
     display: flex;
-    gap: 15px;
+    gap: 15px; /* Gap between the navigation buttons */
     align-items: center;
 }
 
@@ -71,6 +71,7 @@ a:hover{
     height: 350px;
     margin: 0% auto;
     margin-bottom: 2rem;
+    border-radius: 1rem;
 }
 /* Content on the banner background */
 .banner-content{
@@ -96,10 +97,27 @@ img{
     flex-shrink: 0; /* Prevents the image from being squeezed by the text */
 }
 
+/* Table layout and style*/
+table{
+    width: 100%;
+    border-collapse: collapse; /* Remove the seperation*/
+    margin-top: 2rem; /* Space from the header */
+}
 
 /* Table lable*/
 thead{
     background-color: #7048e8;
+}
+
+th{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+td{
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 0.3rem solid #444;
 }
 
 /* Project Links */
