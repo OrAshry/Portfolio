@@ -22,6 +22,7 @@ body{
     background-color: #323232;
     scroll-margin-top: 6rem; /* Buffer between toolbar to title*/
     padding: 2.5rem;
+    border-radius: 1rem;
 }
 
 /* Toolbar*/
@@ -78,6 +79,23 @@ a:hover{
     align-items: center;
     text-align: center;
 }
+
+/* Introduction */
+#intro{
+    flex-direction: row; /* Made both elements side-by-side */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem; /* This creates a consistent space between the image and text */
+}
+/* Profile picture*/
+img{
+    object-fit: cover; /* Make sure photo will not stratch*/
+    width: 18%;
+    aspect-ratio: 1 / 1; /* Ensures the image remains a square to match text height */
+    border-radius: 50%;
+    flex-shrink: 0; /* Prevents the image from being squeezed by the text */
+}
+
 
 /* Table lable*/
 thead{
