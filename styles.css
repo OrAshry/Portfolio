@@ -14,8 +14,12 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
+    margin: 0rem auto 2rem auto; 
+    width: 90%;
     background-color: #323232;
     scroll-margin-top: 6rem; /* Buffer between toolbar to title*/
+    padding: 2.5rem;
 }
 
 /* Toolbar*/
