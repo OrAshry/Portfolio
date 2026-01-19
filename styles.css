@@ -16,11 +16,12 @@ header{
 a{
     color: #ffffff;
     font-family: inherit;
+    transition: 0.5s;
 
 }
 a:hover{
     color: #7048e8;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 /* Copyright */
@@ -56,10 +57,11 @@ input{
     color:#ffffff;
     background-color: #7048e8;
     font-family: inherit;
+    transition: 0.5s;
     cursor: pointer;
 }
 
 #submit:hover{
     color:#5f3cd4;
-    transition: 0.3s;
+    transition: 0.5s;
 }
