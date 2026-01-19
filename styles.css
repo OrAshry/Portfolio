@@ -103,17 +103,16 @@ table{
     border-collapse: collapse; /* Remove the seperation*/
     margin-top: 2rem; /* Space from the header */
 }
-
-/* Table lable*/
+/* Table Header */
 thead{
     background-color: #7048e8;
 }
-
+/* Table Header style */
 th{
     padding: 1.5rem;
     text-align: center;
 }
-
+/* Table Data */
 td{
     padding: 2rem;
     text-align: center;
