@@ -103,5 +103,10 @@ input{
 
 /* Copyright */
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0%;
+    margin-top: 2rem;
     background-color: #393939;
 }
