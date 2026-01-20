@@ -10,7 +10,7 @@
 body{
     background-color: #212529;
     color: #ffffff;
-    line-height: 1.6;
+    line-height: 1.8;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -64,7 +64,7 @@ nav{
 
 
 /*********************************** Banner Section *****************************************/
-/* Banner Backgrond */
+/* Banner Backgrond Photo */
 .banner{
     display: flex;
     justify-content: center;
