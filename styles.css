@@ -162,6 +162,38 @@ td{
     transform: translateY(-0.8rem); /* Make it pop */
     transition: 1s;
 }
+
+/*********************************** Languages Section **************************************/
+
+.languages-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.language-item{
+    width: 70%;
+    margin-bottom: 1rem;
+    
+}
+
+.progress-bar{
+    background-color: #616161;
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.fill-bar{
+    background-color: #7048e8;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+
 /*********************************** Contact Section ****************************************/
 form{
     display: flex;
