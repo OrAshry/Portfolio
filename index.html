@@ -24,33 +24,36 @@
     
     <!-- Toolbar -->
     <header>
-    
-      <h1 class="logo">O.A</h1>
+      <a href="index.html" rel="home"><h1 class="logo">O.A</h1></a>
 
       <nav>
-        <a href="index.html">Home</a>
+        <a href="index.html" rel="home">Home</a>
+        <span> | </span>
         <a href="about.html">About</a>
+        <span> | </span>
         <a href="#projects">Projects</a>
+        <span> | </span>
         <a href="#contact">Contact</a>
       </nav>
 
     </header>
 
     <!-- Banner -->
-    <section>
+    <section class="banner">
     
-      <img src="computerPurple.jpg" alt="Banner photo" style="width: 1000px; height: 500px;">
-      <h2>Welcome To My Portfolio</h2>
-      <h3>Sharing my work and journey in porgramming</h3>
-    
+      <section class="banner-content">
+        <h1>Welcome To My Portfolio</h1><br>
+        <h3>Sharing my work and journey in programming</h3>
+      </section>
+        
     </section>
     
     <!-- Introduction -->
-    <section>
+    <section class="container" id="intro">
       
-      <img src="ProfilePic.jpg" alt="Profile Photo" style="width: 200px; height: 200px">
+      <img src="ProfilePic.jpg" alt="Profile Photo">
       
-        <p>
+      <p>
 
         I'm a Computer Science student at the Open University of Israel with a growing passion for backend development,
         embedded systems, and cybersecurity.<br>
@@ -64,7 +67,7 @@
     </section>
 
     <!-- My Skills table -->
-    <section>
+    <section class="container">
       
       <h2>My Skills</h2>
       <table>
@@ -79,33 +82,49 @@
         <tbody>
           <tr>
 
-            <td>Logical Thinking & Problem Solving</td>
+            <td>Independent Learning</td>
             <td>
-              Ability to break complex problems into smaller steps and create 
-              efficient, clear solutions.
+              Learning complex CS concepts through self-study and disciplined time management at the Open University
             </td>
 
           </tr>
 
           <tr>
 
-            <td>Adaptability & Continuous Learning</td>
+            <td>Git & Version Control</td>
             <td>
-              Willingness to learn new languages, frameworks, and paradigms as
-              technology evolves.
+              Managing code repositories and collaborating on development projects using Git and GitHub
             </td>
 
           </tr>
 
           <tr>
 
-            <td>Critical Thinking & Creativity</td>
+            <td>Linux (CLI)</td>
             <td>
-              Evaluating solutions, thinking outside the box, and improving existing approaches
-
+              Comfortable navigating systems and managing files using the command-line interface
             </td>
 
           </tr>
+
+          <tr>
+
+            <td>Leadership & Teamwork</td>
+            <td>
+              Proven ability to manage daily operations, train teams, and solve problems under pressure
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td>Technical Advisory</td>
+            <td>
+              Specialized in analyzing customer requirements to provide optimal hardware and electronics solutions.
+            </td>
+
+          </tr>
+
         </tbody>
 
       </table>
@@ -113,44 +132,114 @@
     </section>
 
     <!-- My Projects -->
-    <section id="projects">
+    <section id="projects" class="container">
 
       <h2>My Projects</h2>
-      <a href="https://github.com/OrAshry/Work_Tracker">Work_Tracker</a>
-      <a href="https://github.com/OrAshry/Two-Pass-Assembler-C">Two-Pass-Assembler-C</a>
-      <a href="https://github.com/OrAshry/Portfolio">Portfolio Website</a>
+
+      <div class="projects-wrap">
+        
+        <div class="project-item">
+          <a href="https://github.com/OrAshry/Work_Tracker" target="_blank" rel="noopener noreferrer">Work_Tracker</a>
+        </div>
+        
+        <div class="project-item">
+          <a href="https://github.com/OrAshry/Two-Pass-Assembler-C" target="_blank" rel="noopener noreferrer">Two-Pass-Assembler-C</a>
+        </div>
+        
+        <div class="project-item">
+          <a href="https://github.com/OrAshry/Portfolio" target="_blank" rel="noopener noreferrer">Portfolio Website</a>
+        </div>
+
+      </div>
 
     </section>
 
     <!-- My Languages -->
-    <section>
+    <section class="container">
 
       <h2>My Languages</h2>
-      <p>C</p><br>
-      <p>Java</p><br>
-      <p>Python</p><br>
-      <p>HTML</p><br>
-      <p>CSS</p><br>
-      <p>JavaScript</p>
+      
+      <div class="languages-wrap">
 
+        <div class="language-item">
+          
+          <p>C</p>
+          
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 90%"></div>
+          </div>
+        
+        </div>
+
+            <div class="language-item">
+          
+          <p>Python</p>
+
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 40%"></div>
+          </div>
+        
+        </div>
+
+        <div class="language-item">
+          
+          <p>Java</p>
+
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 75%"></div>
+          </div>
+
+        </div>
+
+        <div class="language-item">
+
+          <p>HTML</p>
+
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 55%"></div>
+          </div>
+
+        </div>
+
+        <div class="language-item">
+
+          <p>CSS</p>
+
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 35%"></div>
+          </div>
+
+        </div>
+
+        <div class="language-item">
+
+          <p>JavaScript</p>
+
+          <div class="progress-bar">
+            <div class="fill-bar" style="width: 10%;"></div>
+          </div>
+
+        </div>
+        
+      </div>
     </section>
 
     <!-- Contact Me -->
-     <section id="contact">
+     <section id="contact" class="container">
 
       <h2>Contact Me</h2>
       <form>
 
-        <label for="name">Name:</label><br>
-        <input type="text" id="name"><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
 
-        <label for="email">Email:</label><br>
-        <input type="text" id="email"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email">
 
-        <label for="message">Message:</label><br>
-        <input type="text" id="message"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
         
-        <input type="submit" value="send"> 
+        <input type="submit" value="SEND" id="submit"> 
 
       </form>
 

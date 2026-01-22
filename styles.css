@@ -1,0 +1,263 @@
+/*********************************** General Layout *****************************************/
+/* Ensure Layout Starts Exactly At The Edges Of The Screen */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Body General Rules*/
+body{
+    background-color: #212529;
+    color: #ffffff;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Standard Responsive Containers For Each Section*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem auto 2rem auto; 
+    width: 80%;
+    background-color: #323232;
+    scroll-margin-top: 6rem; /* Buffer between toolbar to title*/
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+
+/* General Links Style And Layout*/
+a{
+    color: #ffffff;
+    font-family: inherit;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+/* Links Hover Effect */
+a:hover{
+    color: #7048e8;
+    transition: 0.5s;
+}
+
+
+/*********************************** Logo and Navigation ************************************/
+/* Toolbar*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393939;
+    position: sticky;
+    top: 0%;
+    padding: 1% 5%;
+    margin-bottom: 2rem;
+}
+
+/* Navigation Links*/
+nav{
+    display: flex;
+    gap: 15px; /* Gap between the navigation buttons */
+    align-items: center;
+}
+
+
+/*********************************** Banner Section *****************************************/
+/* Banner Backgrond Photo */
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("computerPurple.jpg");
+    background-size: cover;
+    background-position: center;
+
+    width: 90%;
+    height: 350px;
+    margin: 0% auto;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+/* Content On The Banner Background */
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*********************************** Introduction Section ***********************************/
+/* Introduction */
+#intro{
+    flex-direction: row; /* Made both elements side-by-side */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem; /* This creates a consistent space between the image and text */
+}
+
+/* Profile Picture*/
+img{
+    object-fit: cover; /* Make sure photo will not stratch*/
+    width: 18%;
+    aspect-ratio: 1 / 1; /* Ensures the image remains a square to match text height */
+    border-radius: 50%;
+    flex-shrink: 0; /* Prevents the image from being squeezed by the text */
+}
+
+
+/*********************************** Skills Section *****************************************/
+/* Table Layout And Style*/
+table{
+    width: 100%;
+    border-collapse: collapse; /* Remove the seperation*/
+    margin-top: 2rem; /* Space from the header */
+}
+
+/* Table Header */
+thead{
+    background-color: #7048e8;
+}
+
+/* Table Header Style */
+th{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Table Data */
+td{
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 0.3rem solid #444;
+}
+
+
+/*********************************** Projects Section ***************************************/
+/* Projects Wrapper*/
+.projects-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Individual Project Cards */ 
+
+.project-item{
+    flex: 1; /* Equal Width Distribution */ 
+    padding: 0rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #616161;
+    transition: 1s;
+}
+
+/* Hover Effect */
+.project-item:hover{
+    box-shadow: 0px 15px 20px #7048e8;
+    transform: translateY(-0.8rem); /* Make it pop */
+    transition: 1s;
+}
+
+.project-item a{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;
+padding: 2.5rem;
+color: #ffffff;
+}
+
+/*********************************** Languages Section **************************************/
+
+.languages-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.language-item{
+    width: 70%;
+    margin-bottom: 1rem;
+    
+}
+
+.progress-bar{
+    background-color: #616161;
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.fill-bar{
+    background-color: #7048e8;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+
+/*********************************** Contact Section ****************************************/
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+/* Form Input Box */
+input, textarea{
+    background-color: #616161;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.75rem;
+    border: none; /* Removes the default thin black border */
+    color: #ffffff; /* Text color inside the input box*/
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* Message */
+textarea{
+    height: 2.5rem; /* Initial height */
+    min-height: 2.5rem; /* The lowest resize option  */
+    resize: vertical; /* Limit the user to resize only the Y-axis*/
+}
+
+/* Form Submit Button */
+#submit{
+    color:#ffffff;
+    background-color: #7048e8;
+    font-family: inherit;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: bold; 
+}
+
+/* Hover Effect */
+#submit:hover{
+    color:#5f3cd4;
+    transition: 0.5s;
+}
+
+
+/*********************************** Copyright Section **************************************/
+/* End Of Page */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5% 0%;
+    margin-top: 2rem;
+    background-color: #393939;
+}
