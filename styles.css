@@ -89,6 +89,10 @@ nav{
     text-align: center;
 }
 
+.banner h3{
+    font-weight: 300;
+}
+
 
 /*********************************** Introduction Section ***********************************/
 /* Introduction */
@@ -228,8 +232,8 @@ input, textarea{
 
 /* Message */
 textarea{
-    height: 2.5rem; /* Initial height */
-    min-height: 2.5rem; /* The lowest resize option  */
+    height: 2.8rem; /* Initial height */
+    min-height: 2.8rem; /* The lowest resize option  */
     resize: vertical; /* Limit the user to resize only the Y-axis*/
 }
 
