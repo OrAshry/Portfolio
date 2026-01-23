@@ -228,16 +228,19 @@
      <section id="contact" class="container">
 
       <h2>Contact Me</h2>
-      <form>
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="a8f54181-f7d9-484e-a287-d5171797ef16"> <!-- Web3Forms ID -->
+        <input type="hidden" name="redirect" value="https://orashry.com" > <!-- Redirect after a submit -->
 
         <label for="name">Name:</label>
-        <input type="text" id="name">
+        <input type="text" name="name" required>
 
         <label for="email">Email:</label>
-        <input type="text" id="email">
+        <input type="text" name="email" required>
 
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea name="message" required></textarea>
         
         <input type="submit" value="SEND" id="submit"> 
 
