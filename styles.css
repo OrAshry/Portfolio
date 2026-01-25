@@ -58,7 +58,7 @@ header{
 /* Navigation Links*/
 nav{
     display: flex;
-    gap: 15px; /* Gap between the navigation buttons */
+    gap: 1rem; /* Gap between the navigation buttons */
     align-items: center;
 }
 
@@ -75,7 +75,7 @@ nav{
     background-position: center;
 
     width: 90%;
-    height: 350px;
+    height: 22rem;
     margin: 0% auto;
     margin-bottom: 2rem;
     border-radius: 1rem;
@@ -265,3 +265,6 @@ footer{
     margin-top: 2rem;
     background-color: #393939;
 }
+
+
+/*********************************** Media Queries ******************************************/
