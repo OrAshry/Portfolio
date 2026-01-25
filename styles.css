@@ -294,6 +294,10 @@ footer{
         line-height: 1.5;
     }
 
+    header{
+        width: 100%;
+    }
+
     .container{
         padding: 1.5rem;
         margin-bottom: 1.5rem;
@@ -323,18 +327,18 @@ footer{
 @media screen and (max-width: 480px) {
     
     body{
-        line-height: 1.3rem;
+        line-height: 1.4rem;
+        font-size: 75%;
     }
 
     .container{
-        width: 85%;
-        font-size: 75%;
-        padding: 1.5rem;
+        width: 80%;
+        padding: 1rem;
         margin-bottom: 1rem;
     }
 
     header{
-        padding: 3% 5%;
+        padding: 4% 5%;
     }
 
     h1.logo{
@@ -348,7 +352,13 @@ footer{
 
     .banner{
         width: 95%;
-        height: 12rem;
+        min-height: 12rem;
+        height: auto; 
+        padding: 2rem 0; /
+    }
+
+    .banner h1, .banner h3 {
+        line-height: 1.2; 
     }
 
     #intro{
@@ -370,4 +380,7 @@ footer{
         font-size: 0.8rem;
     }
 
+    footer{
+        padding: 2% 0%;
+    }
 }
