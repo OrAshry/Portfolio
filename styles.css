@@ -141,7 +141,7 @@ td{
 
 
 /*********************************** Projects Section ***************************************/
-/* Projects Wrapper*/
+/* Projects Wrapper */
 .projects-wrap{
     display: flex;
     flex-direction: row;
@@ -150,8 +150,7 @@ td{
     margin-top: 2rem;
 }
 
-/* Individual Project Cards */ 
-
+/* Individual Project */ 
 .project-item{
     flex: 1; /* Equal Width Distribution */ 
     padding: 0rem;
@@ -268,3 +267,27 @@ footer{
 
 
 /*********************************** Media Queries ******************************************/
+
+/* Laptops And Tablets */
+@media screen and (max-width: 1024px) {
+    
+    .banner{
+        width: 90%;
+    }
+
+    .container{
+        width: 80%;
+    }
+}
+
+/* 2. Tablet & Split View - Up to 768px */
+@media screen and (max-width: 768px) {
+    
+    .container{
+        padding: 1rem;
+    }
+
+    .projects-wrap{
+        flex-direction: column;
+    }
+}
