@@ -285,8 +285,8 @@ footer{
     }
 }
 
-/* Tablet & Split View - Up to 768px */
-@media screen and (max-width: 768px) {
+/* Tablet Vertical & Split View - Up to 900px */
+@media screen and (max-width: 900px) {
     
     body{
         line-height: 1.5;
@@ -318,6 +318,21 @@ footer{
         gap: 1rem;
     }
     
+}
+
+/* Split View And Small Screens - Up To 768px */
+@media screen and (max-width: 768px) {
+
+    #intro{
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    img{
+        width: 40%;
+    }
+
 }
 
 /* Phones And Small Screens - Up To 480px */
@@ -357,16 +372,6 @@ footer{
 
     .banner h1, .banner h3 {
         line-height: 1.2; 
-    }
-
-    #intro{
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
-    }
-
-    img{
-        width: 45%;
     }
 
     th{
