@@ -54,6 +54,7 @@ header{
     top: 0%;
     padding: 1% 5%;
     margin-bottom: 2rem;
+    z-index: 1000;
 }
 
 /* Navigation Links*/
