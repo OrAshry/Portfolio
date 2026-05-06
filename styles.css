@@ -38,7 +38,7 @@ a{
 /* Links Hover Effect */
 @media (hover: hover) and (pointer: fine){
     a:hover{
-        color: #7048e8;
+        color: #9E2A2B;
     }
 }
 
@@ -70,8 +70,11 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-image: url("assets/computerPurple.jpg");
+    
+    background-image: url("assets/Banner.jpg");
+    background-blend-mode: multiply;
+    background-color: #9E2A2B;
+    filter: brightness(1.5);
     background-size: cover;
     background-position: center;
 
@@ -124,7 +127,7 @@ table{
 
 /* Table Header */
 thead{
-    background-color: #7048e8;
+    background-color: #9E2A2B;
 }
 
 /* Table Header Style */
@@ -175,7 +178,7 @@ transition: 1s;
 /* Hover Effect */
 @media (hover: hover) and (pointer: fine){    
     .project-item:hover{
-        box-shadow: 0px 15px 20px #7048e8;
+        box-shadow: 0px 15px 30px #9E2A2B;
         transform: translateY(-0.8rem); /* Make it pop */
     }
 }
@@ -206,7 +209,8 @@ transition: 1s;
 }
 
 .fill-bar{
-    background-color: #7048e8;
+    background-color: #9E2A2B;
+    box-shadow: 0 0 8px #9E2A2B;
     height: 100%;
     border-radius: 1rem;
 }
@@ -243,7 +247,7 @@ textarea{
 /* Form Submit Button */
 #submit{
     color:#ffffff;
-    background-color: #7048e8;
+    background-color: #9E2A2B;
     font-family: inherit;
     cursor: pointer;
     margin-top: 1rem;
@@ -254,7 +258,10 @@ textarea{
 /* Hover Effect */
 @media (hover: hover) and (pointer: fine){    
     #submit:hover{
-        color:#5f3cd4;
+        background-color: #9E2A2B;
+        color: #ffffff;
+        filter: brightness(1.5);
+        cursor: pointer;
     }
 }
 
