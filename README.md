@@ -1,5 +1,7 @@
 # Portfolio Website
 
+**Live Site:** [orashry.com](https://orashry.com)
+
 **My Portfolio Website** is a responsive personal hub designed to showcase my academic background, technical skills, and software projects. It serves as a central professional presence for recruiters and collaborators to explore my work.
 
 Building this site was my entry point into web development, where I learned HTML, CSS, and JavaScript from scratch to create a platform that reflects my passion for system logic and clean design.
